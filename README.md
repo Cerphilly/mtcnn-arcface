@@ -17,6 +17,7 @@ You can change face recognition models by changing parser. All the Pretrained mo
 There was a img folder in Database folder, but I deleted it due to privacy issue. Make your own to use database.
 
 __What I have changed from Insightface__
+
 Though all features from this program is from insightface, there are few things that have changed.
 
 1. Don't know why, but Insightface's mtcnn detector is somewhat programmed to get only one face from the image file input. Thus I added new function in Model/face_model.py. 
