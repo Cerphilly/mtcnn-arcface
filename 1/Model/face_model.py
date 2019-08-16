@@ -18,9 +18,7 @@ def do_flip(data):
 
     return data
 
-#/Users/aham/insightface/models/model-r100-ii
-#/Users/aham/insightface/models/model-y1-test2
-#/Users/aham/insightface/models/ssh-model-final
+
 def get_model(ctx, image_size, model_str, layer):
 
     prefix = model_str + '/model'
