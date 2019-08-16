@@ -16,7 +16,7 @@ from src import tools
 
 parser = argparse.ArgumentParser(description='face model test')
 parser.add_argument('--image-size', default='112,112', help='')
-parser.add_argument('--model', default='/Users/aham/PycharmProjects/1/Pretrained_model/model-r100-ii', help='path to load model.')
+parser.add_argument('--model', default='/Pretrained_model/model-r100-ii', help='path to load model.')
 #512-D feature is dependent to model. it means same face feature from different model will not be similar at all.
 parser.add_argument('--ga-model', default='', help='path to load gender age model.')
 parser.add_argument('--gpu', default=0, type=int, help='gpu id')
