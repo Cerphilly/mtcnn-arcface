@@ -9,12 +9,12 @@ In __Application__ folder, demo.py(or demo_rasp.py) gets webcam image and detect
 Then it compares every faces with faces in Database(Images deleted for privacy) using 512-D features of each faces.
 If there's new face in the camera, then it saves its image and 512-D features in the database. If the face is already in the database, then it prints the most similar face in the database.
 
-You can test any image file you want in test.py.
+You can test any image file you want in test.py
 
 MTCNN Detector uses pretrained model in Model/mtcnn-model, and Arcface used resnet100(model-r100-ii) for face recognition. You can see other face recognition models in Pretrained_model/init.py.
 You can change face recognition models by changing parser. All the Pretrained models in this program is also from Insightface.
 
-There was a img folder in Database folder, but I deleted it due to privacy issue. Make your own to use database.
+There was a img folder in Database folder, but I deleted it due to privacy issue. Make your own OMG database folder to use database.
 
 __What I have changed from Insightface__
 
